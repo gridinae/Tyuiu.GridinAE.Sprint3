@@ -18,5 +18,4 @@ Console.WriteLine("* РЕЗУЛЬТАТ:                                        
 Console.WriteLine("************************************************************************");
 
 Console.WriteLine(new DataService().GetSumSeries(5, 1, 13));
-
 Console.ReadKey();
