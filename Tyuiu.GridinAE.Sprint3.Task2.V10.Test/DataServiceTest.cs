@@ -8,6 +8,6 @@ public class DataServiceTest
     public void ValidGetMultiplySeries()
     {
         DataService ds = new();
-        Assert.AreEqual(1, ds.GetMultiplySeries(1, 1, 13));
+        Assert.AreEqual(7.5, ds.GetMultiplySeries(1, 1, 13));
     }
 }

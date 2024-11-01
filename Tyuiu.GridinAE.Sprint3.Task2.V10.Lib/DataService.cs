@@ -10,10 +10,9 @@ public class DataService : ISprint3Task2V10
         int t = value;
         do
         {
-            mult *= Math.Pow(t, k) + 1 / (k + 1);
+            mult *= Math.Pow(t, k) + (double) 1 / (k + 1);
             k++;
-        }
-        while (k <= stopValue);
+        } while (k <= stopValue);
         return Math.Round(mult, 3);
     }
 }
