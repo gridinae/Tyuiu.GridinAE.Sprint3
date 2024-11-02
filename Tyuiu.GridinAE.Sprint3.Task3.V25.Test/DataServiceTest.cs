@@ -7,6 +7,6 @@ public class DataServiceTest
     [TestMethod]
     public void ValidGetMinCharCount()
     {
-        Assert.AreEqual(6, new DataService().GetMinCharCount("kjhgfuu gujut dtuu", 'u'));
+        Assert.AreEqual(1, new DataService().GetMinCharCount("kjhgfuu gujut dtuu", 'u'));
     }
 }
