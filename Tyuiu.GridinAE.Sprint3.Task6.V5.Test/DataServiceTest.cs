@@ -7,6 +7,6 @@ public class DataServiceTest
     [TestMethod]
     public void GetSumTheDivisors()
     {
-        Assert.AreEqual(94, new DataService().GetSumTheDivisors(15, 22));
+        Assert.AreEqual(242, new DataService().GetSumTheDivisors(15, 22));
     }
 }

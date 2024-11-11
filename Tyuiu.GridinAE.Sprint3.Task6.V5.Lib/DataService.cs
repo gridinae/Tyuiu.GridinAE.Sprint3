@@ -8,6 +8,7 @@ public class DataService : ISprint3Task6V5
         int sum = 0;
         for (int i = startValue; i <= stopValue; i++)
         {
+            sum += i;
             for (int d = 1; d <= Math.Ceiling(i * 0.5); d++)
             {
                 if (i % d == 0)
