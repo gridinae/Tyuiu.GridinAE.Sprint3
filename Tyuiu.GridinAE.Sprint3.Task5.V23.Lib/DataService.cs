@@ -10,7 +10,7 @@ public class DataService : ISprint3Task5V23
         {
             for (int k = startValue2; k <= stopValue2; k++)
             {
-                sum += (Math.Pow(x, k) + 2) * Math.Cos(x);
+                sum += (Math.Pow(x, k) + 2) * Math.Cos(k);
             }
         }
         return Math.Round(sum, 3);
